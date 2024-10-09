@@ -14,7 +14,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div>
+    <div className="mt-4">
       <div className="navbar justify-between bg-base-100">
         <div>
           <div className="dropdown">
@@ -45,8 +45,11 @@ const Navbar = () => {
             <div className=" w-16 bg-[#FD6F00] rounded-full py-3">
               <img src={navLogo} alt="" />
             </div>
-            <p className="btn btn-ghost tracking-wider text-4xl font-montserrat">
-              M<span className="ml-[-8px] font-thin text-[#545454]">umair</span>
+            <p
+              style={{ fontFamily: "Montserrat, sans-serif !important" }}
+              className="btn btn-ghost tracking-wider text-4xl"
+            >
+              M<span className="ml-[-8px] font-light text-[#545454]">umair</span>
             </p>
           </div>
         </div>
@@ -55,7 +58,7 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">{navLink}</ul>
           </div>
           <div className=" w-fit">
-            <a className="bg-[#FD6F00] px-4 py-2 text-xl font-normal text-white cursor-pointer rounded-md">
+          <a className="bg-[#FD6F00] px-4 py-2 text-xl font-normal text-white cursor-pointer rounded-md">
               Download CV
             </a>
           </div>

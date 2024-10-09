@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
       },
+      textColor: {
+        themeColor: '#FD6F00',
+      }
     },
   },
   plugins: [require('daisyui')],
