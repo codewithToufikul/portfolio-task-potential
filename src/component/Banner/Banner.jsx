@@ -1,4 +1,5 @@
-import bannerImage from '../../assets/bannnerImage.png';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import bannerImage from "../../assets/bannnerImage.png";
 
 const Banner = () => {
   return (
@@ -24,20 +25,24 @@ const Banner = () => {
         </div>
       </div>
       <div className="relative w-[465px] mt-20 ">
-      <div className="w-full h-[440px] inset-0 rounded-full bg-gradient-to-b from-gray-500 to-[#FD6F00] p-2 bg-clip-border">
-  <div className="w-full h-full rounded-full bg-white">
-    {/* Your inner content goes here */}
-  </div>
-</div>
+        <div className="w-full h-[440px] inset-0 rounded-full bg-gradient-to-b from-gray-500 to-[#FD6F00] p-2 bg-clip-border">
+          <div className="w-full h-full rounded-full bg-white">
+            {/* Your inner content goes here */}
+          </div>
+        </div>
 
         <img
-            src={bannerImage}
-            alt="Banner"
-            className=" z-20 absolute top-[-97px] object-cover rounded-b-full border-b-[1px]"
-          />
-          <div className='bg-[#FD6F0099] w-[250px] h-[60px] absolute top-[-10px] z-50 left-[95px]'>
-
-          </div>
+          src={bannerImage}
+          alt="Banner"
+          className=" z-20 absolute top-[-97px] object-cover rounded-b-full border-b-[1px]"
+        />
+        <div className="bg-[#FD6F0099] w-[250px] h-[60px] absolute top-[-10px] z-50 left-[95px]"></div>
+        <div className=" flex justify-center gap-3 mt-10">
+      <p className=" text-3xl cursor-pointer"><FaFacebook /></p>
+      <p className=" text-3xl cursor-pointer"><FaTwitter /></p>
+      <p className=" text-3xl cursor-pointer"><FaInstagram /></p>
+      <p className=" text-3xl cursor-pointer"><FaLinkedin /></p>
+      </div>
       </div>
     </div>
   );
