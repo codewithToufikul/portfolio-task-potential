@@ -3,8 +3,9 @@ import navLogo from "../../assets/navlogo.png";
 const Navbar = () => {
   const navLink = (
     <>
-      <li className=" cursor-pointer font-semibold text-lg mr-7">About Me</li>
+      
       <li className=" cursor-pointer font-semibold text-lg mr-7">Home</li>
+      <li className=" cursor-pointer font-semibold text-lg mr-7">About Me</li>
       <li className=" cursor-pointer font-semibold text-lg mr-7">Services</li>
       <li className=" cursor-pointer font-semibold text-lg mr-7">Projects</li>
       <li className=" cursor-pointer font-semibold text-lg mr-7">
