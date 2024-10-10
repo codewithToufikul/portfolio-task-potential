@@ -1,5 +1,6 @@
 import About from "./component/About/About"
 import Banner from "./component/Banner/Banner"
+import Contract from "./component/Contract/Contract"
 import Navbar from "./component/Navbar/Navbar"
 import Projects from "./component/Projects/Projects"
 import Services from "./component/Services/Services"
@@ -17,6 +18,9 @@ function App() {
       <Projects/>
     </div>
     <Testimonial/>
+    <div className="max-w-[1400px] mx-auto">
+      <Contract/>
+    </div>
     </div>
   )
 }

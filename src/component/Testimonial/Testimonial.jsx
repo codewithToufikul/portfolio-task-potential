@@ -25,7 +25,7 @@ const Testimonial = () => {
           <ul className=" space-x-5" style={{ margin: "10px" }}> {dots} </ul>
         </div>
       ),
-      customPaging: i => (
+      customPaging: () => (
         <div
         className=" bg-gray-500 rounded-3xl w-9 mt-6 custom-dot"
           style={{
@@ -66,7 +66,7 @@ const Testimonial = () => {
           "Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium"
         }
       />
-      <div className="slider-container mx-auto max-w-full h-[800px] overflow-hidden mt-5">
+      <div className="slider-container mx-auto max-w-full h-[440px] overflow-hidden mt-5">
         <Slider {...settings}>
           <div className="p-4">
             <div className="bg-gray-100 p-8 rounded shadow-md">
