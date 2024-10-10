@@ -1,6 +1,7 @@
 import About from "./component/About/About"
 import Banner from "./component/Banner/Banner"
 import Navbar from "./component/Navbar/Navbar"
+import Services from "./component/Services/Services"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <About/>
+      <Services/>
     </div>
   )
 }

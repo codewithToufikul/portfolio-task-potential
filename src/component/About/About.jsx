@@ -22,7 +22,7 @@ const About = () => {
       </div>
       <div>
         <div>
-          <h1 className=" text-6xl font-semibold mb-4">About Me</h1>
+          <h1 className=" text-[66px] font-semibold mb-4">About Me</h1>
           <p className=" text-xl font-normal">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa
             nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis
