@@ -11,7 +11,7 @@ const Contract = () => {
         }
       />
       <div className="flex justify-center gap-5 items-center mt-16">
-        <div className="w-[570px]">
+        <div className="lg:w-[570px]">
           <Input
             type="email"
             placeholder="Enter Your Email !"

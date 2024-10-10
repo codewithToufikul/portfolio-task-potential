@@ -4,11 +4,11 @@ const Navbar = () => {
   const navLink = (
     <>
       
-      <li className=" cursor-pointer font-semibold text-lg mr-7">Home</li>
-      <li className=" cursor-pointer font-semibold text-lg mr-7">About Me</li>
-      <li className=" cursor-pointer font-semibold text-lg mr-7">Services</li>
-      <li className=" cursor-pointer font-semibold text-lg mr-7">Projects</li>
-      <li className=" cursor-pointer font-semibold text-lg mr-7">
+      <li className=" cursor-pointer font-semibold text-lg lg:mr-7">Home</li>
+      <li className=" cursor-pointer font-semibold text-lg lg:mr-7">About Me</li>
+      <li className=" cursor-pointer font-semibold text-lg lg:mr-7">Services</li>
+      <li className=" cursor-pointer font-semibold text-lg lg:mr-7">Projects</li>
+      <li className=" cursor-pointer font-semibold text-lg lg:mr-7">
         Testimonials
       </li>
       <li className=" cursor-pointer font-semibold text-lg mr-7">Contact</li>
@@ -43,12 +43,12 @@ const Navbar = () => {
             </ul>
           </div>
           <div className=" flex items-center">
-            <div className=" w-16 bg-[#FD6F00] rounded-full py-3">
+            <div className="  w-10 lg:w-16 bg-[#FD6F00] rounded-full py-3">
               <img src={navLogo} alt="" />
             </div>
             <p
               style={{ fontFamily: "Montserrat, sans-serif !important" }}
-              className="btn btn-ghost tracking-wider text-4xl"
+              className="btn btn-ghost tracking-wider text-xl md:text-2xl lg:text-4xl"
             >
               M<span className="ml-[-8px] font-light text-[#545454]">umair</span>
             </p>
@@ -59,7 +59,7 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">{navLink}</ul>
           </div>
           <div className=" w-fit">
-          <a className="bg-[#FD6F00] px-4 py-2 text-xl font-normal text-white cursor-pointer rounded-md">
+          <a className="bg-[#FD6F00] px-4 py-2 lg:text-xl font-normal text-white cursor-pointer rounded-md">
               Download CV
             </a>
           </div>

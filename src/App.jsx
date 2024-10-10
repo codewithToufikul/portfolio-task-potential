@@ -10,7 +10,7 @@ import Testimonial from "./component/Testimonial/Testimonial"
 function App() {
 
   return (
-    <div>
+    <div className="">
       <div className="max-w-[1400px] mx-auto">
       <Navbar/>
       <Banner/>

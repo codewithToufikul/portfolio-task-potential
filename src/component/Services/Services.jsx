@@ -20,7 +20,7 @@ const Services = () => {
         }
       />
       <div className=" mt-6">
-        <div className=" flex justify-between">
+        <div className=" flex flex-wrap justify-between">
           <Card className="mt-6 hover:shadow-xl cursor-pointer w-[330px] bg-[#F8F8F8] py-7">
             <CardBody>
             <img className="mb-4 h-14 w-16 " src={cardvector1} alt="" />
