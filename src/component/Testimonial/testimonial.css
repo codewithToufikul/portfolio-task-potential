@@ -1,0 +1,6 @@
+/* Testimonial.css */
+.slick-dots li.slick-active div.custom-dot {
+    background-color: #FD6F00 !important;
+    color: #FD6F00;
+  }
+  
